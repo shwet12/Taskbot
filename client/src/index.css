@@ -1,0 +1,17 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,186,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.wrapperClassName {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 8px;
+  }
+  .editorClassName {
+    min-height: 250px;
+    overflow: hidden;
+  }
+  .toolbarClassName {
+    border: 1px solid #ccc;
+  }
