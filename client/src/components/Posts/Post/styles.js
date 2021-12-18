@@ -14,12 +14,7 @@ export default makeStyles({
         height: '100%',
     },
     card: {
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-        borderRadius: '15px',
-        height: '100%',
-        position: 'relative',
+        boxShadow: 'rgb(0 0 0 / 35%) 0px 5px 15px'
     },
     overlay: {
         position: 'absolute',

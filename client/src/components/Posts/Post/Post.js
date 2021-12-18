@@ -20,7 +20,7 @@ const Post = ({ post }) => {
     )
 
     return (
-        <Card>
+        <Card className={classes.card}>
             <CardHeader
                 action={
                     <Button size="small" onClick={() => setCurrentId(post._id)}>
@@ -47,8 +47,8 @@ const Post = ({ post }) => {
                 {/* <Typography variant="body2" color="textSecondary" component="p">{post.message}</Typography> */}
             </CardContent>
             <CardActions className={classes.cardActions}>
-                <Button size="small" color="primary" onClick={() => dispatch(likePost(post._id))}><ThumbUpAltIcon fontSize="small" /> Like {post.likeCount} </Button>
-                <Button size="small" color="primary" onClick={() => dispatch(deletePost(post._id))}><DeleteIcon fontSize="small" /> Delete</Button>
+                <Button size="small" color="primary" onClick={() => dispatch(likePost(post._id))}><ThumbUpAltIcon fontSize="small" style={{ 'paddingRight': '5px' }} /> Like {post.likeCount} </Button>
+                <Button size="small" color="primary" onClick={() => dispatch(deletePost(post._id))}><DeleteIcon fontSize="small" style={{ 'paddingRight': '5px' }} /> Delete</Button>
             </CardActions>
         </Card >
     )
