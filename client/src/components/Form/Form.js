@@ -74,7 +74,7 @@ const Form = ({ open, closeForm }) => {
     // console.log(description);
     return (
         <Dialog fullScreen open={(post || open) ? true : false}>
-            <DialogTitle>Creating a Post
+            <DialogTitle>Creating a Task
                 {handleClose ? (
                     <IconButton
                         aria-label="close"
